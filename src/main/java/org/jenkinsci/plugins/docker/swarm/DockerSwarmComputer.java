@@ -15,6 +15,8 @@ import com.google.common.collect.Iterables;
 
 import hudson.model.Executor;
 import hudson.model.Queue;
+import hudson.remoting.Channel;
+import hudson.remoting.Channel.Listener;
 import hudson.slaves.AbstractCloudComputer;
 import hudson.slaves.OfflineCause;
 
